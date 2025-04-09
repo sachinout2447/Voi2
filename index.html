@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AI Voice Companion</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      text-align: center;
+      padding: 2rem;
+    }
+    button {
+      padding: 1rem 2rem;
+      margin: 1rem;
+      font-size: 1.1rem;
+    }
+  </style>
+</head>
+<body>
+  <h1>Talk to Your AI Companion</h1>
+  <p>Choose Voice:</p>
+  <button onclick="selectVoice('male')">👨 Male</button>
+  <button onclick="selectVoice('female')">👩 Female</button>
+
+  <br /><br />
+  <button onclick="startListening()">🎙️ Start Talking</button>
+
+  <p id="status"></p>
+
+  <script src="script.js"></script>
+</body>
+</html>
